@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* CSS principal */
+
+a {
+	color: #72080B;
+	text-decoration:none;
+}
+
+a:active, a:hover {
+	color: #8B0A0D;
+}
+
+body {
+	background-color: #F7EAEB;
+	color: #461E1F;
+}
+
+h1 {
+	font-family: 'Brush Script MT', cursive;
+	text-align: center;
+	color: #500507;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Georgia", "Arial", sans-serif;
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+	background-color:#ffffff;
+	border-radius:4px;
+}
+
+#nomArticle, #categorie, #boutonRechercher, #champsConnexion, #boutonInscription, #champProfil, #achatsOuVentes {
+	padding: 5px;
+}
+
+#achatsOuVentes #categorie, #modifierVente {
+	margin: 5px;
+}
+
+.imageMiniature {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.imageDetail {
+	width: 100%;
+}
+
+.bloc-recherche {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 4px;
+}
+
+.logo-mini {
+	max-height: 100px;
+}
